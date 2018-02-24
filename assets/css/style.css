@@ -291,6 +291,8 @@ textarea {
     .maincontainer {
         display: flex;
         flex-direction: column;
+        width: 83%;
+        margin-left: -50px;
     }
 
     .portfolio-item:nth-child(even) {
@@ -299,6 +301,7 @@ textarea {
 
     .portfolio-item {
         clear: both;
+        width: auto;
     }
 
 }
@@ -332,5 +335,17 @@ textarea {
     
     }
 
+    .portfolio-item:nth-child(even) {
+        margin-left: 0px;
+    }
 
+    .portfolio-item {
+        clear: both;
+        width: 100%;
+    }
+
+    .maincontainer {
+        display: flex;
+        flex-direction: column;
+    }
 }
