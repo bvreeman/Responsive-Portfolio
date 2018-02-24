@@ -243,3 +243,72 @@ textarea {
     resize: none;
 }
 
+@media screen and (max-width: 980px) {
+
+    .maincontainer{
+        padding: 20px 100px 20px 100px;
+    }
+
+    .mainleft {
+        max-width: 400px;
+    }
+
+    .mainleft p {
+        float: left;
+    }
+
+    .headercontainer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .mainleft {
+        min-width: 100%;
+    }
+
+    .mainright {
+        min-width: 100%;
+        float: left;
+        
+    }
+
+    .maincontainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .headercontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 
+    }
+
+    header {
+        height: 150px;
+
+    }
+
+    header h1 span{
+        width: 100%;
+         
+    }
+
+    .socialicons {
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+    }
+
+    .myphoto {
+        min-width: 100%;
+    
+    }
+}
