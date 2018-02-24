@@ -1,0 +1,245 @@
+header {
+    background-color: #ffffff;
+    flex-direction: row;
+    border-color: #cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;  
+}
+
+.headercontainer {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.maincontainer {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 100%;
+}
+
+header h1 span{
+    clear: both;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 15px 15px 20px 15px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    height: 20px;
+    font-size: 20px;
+    color: #777777;
+}
+
+body {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);     
+    border-color:#4aaaa5;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    clear: both;
+    min-height: 100%;
+}
+
+.push {
+    height: 75px;
+}
+
+.mainleft {
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 2px;
+    max-width: 650px;
+    background-color: #ffffff;
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+    min-height: 100%;
+}
+
+.mainleft img {
+    width: 260px;
+    height: auto;
+}
+
+.mainright {
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 2px;
+    max-width: 270px;
+    background-color: #ffffff;
+    max-height: 175px;
+    margin: 20px 0px 0px 0px;
+    padding: 20px;
+    color:#4aaaa5;
+
+}
+
+.myphoto {
+    float: left;
+    margin: 0px 15px 0px 0px;
+}
+
+.socialicons a {
+    clear: both;
+    font-size: 60px;
+    padding: 20px 0 0 0;
+    overflow: auto;
+}
+
+li.border {
+    border-right: 2px solid #777777;
+    padding: 5px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #777777;
+}
+
+
+/* Footer CSS */
+
+footer {
+    min-width: 100%;
+    text-align: center;
+    background-color: #666666;
+    color: #ffffff;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 5px;
+    height: 75px;
+    bottom: 0;
+    
+}
+
+footer span {
+    vertical-align: middle;
+}
+
+/* Portfolio CSS for pictures with words on top that didn't work. Saving to view later */
+
+/*
+.portfolioimages { 
+    position: relative; 
+    padding: 0px 40px 40px 0px;
+    min-height: 100%;
+ }
+ 
+ .portfolioheadings { 
+    position: absolute;  
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif; 
+    width: 260px;
+    text-align: center;
+    margin-top: -85px;
+    height: 30px;
+    line-height: 45px;
+    font-size: 20px;
+    padding: 0px 0px 40px 0px;
+    opacity: 0.9;
+ }
+
+.portfolioheadings1 {
+     padding: 20px;
+ }
+
+ .portfolioheadings2 {
+    padding: 20px;
+}
+
+.portfolioheadings3 {
+    padding: 20px;
+}
+
+.portfolioheadings4 {
+    padding: 20px;
+}
+
+.portfolioheadings5 {
+    padding: 20px;
+}
+
+*/
+
+/* Working Portfolio code*/
+
+.portfolio-item {
+	display: inline-block;
+	position: relative;
+	width: 270px;
+	height: 200px;
+	transition: transform .2s ease-out;
+}
+
+.portfolio-item:nth-child(even) {
+	margin-left: 25px;
+}
+
+.item-name {
+	position: relative;
+	top: -60px;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 3px;
+	color: #ffffff;
+    width: 255px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+
+/* CSS settings to format font and colors for words site wide */
+
+ h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color:#4aaaa5;
+}
+
+h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h3 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color:#4aaaa5;
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+/* CSS for Contact Form */
+
+textarea {
+    width: 600px;
+    height: 230px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    resize: none;
+}
+
