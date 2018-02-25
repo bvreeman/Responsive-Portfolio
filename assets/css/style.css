@@ -342,10 +342,13 @@ textarea {
     .portfolio-item {
         clear: both;
         width: 100%;
+        padding-left: 20px;
     }
 
     .maincontainer {
         display: flex;
         flex-direction: column;
+        margin-left: 20px;
+        width: 400px;
     }
 }
